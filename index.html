@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="fontawesome-free-6.7.2-web/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome-free-6.7.2-web/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome-free-6.7.2-web/css/solid.css" rel="stylesheet" />
+
+    <title>Super Utilities Management</title>
+  </head>
+  <body>
+
+
+    <header>
+        <div class="px-3 py-2 bg-dark text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">  
+                <h1>Super Utilities Management</h1>
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-white text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-circle-info text-center"></i>
+                    <br>
+                    <span class="text-center">About</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    <br>
+
+<div class="container">
+    <!-- first row -->
+    <div class="row mb-3">
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 1 electricity -->
+            <a id="electricity" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-bolt fa-border"></i>
+            </a> <!-- fav -->
+            <h2>Electricity</h2>
+            <!-- <i class="fa-10x fa-solid fa-plug"></i> -->
+            <!-- <i class="fa-10x fa-solid fa-lightbulb"></i> -->
+             <!-- <a href="#edit"><i class="fa-solid fa-pen"></i> Edit</a>
+             <a href="#save"><i class="fa-solid fa-floppy-disk"></i> Save</a> -->
+            <br><br>
+        </div>
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 2  water -->
+            <!-- <i class="fa-10x fa-solid fa-water"></i> -->
+            <a id="water" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-droplet fa-border"></i> <!-- fav -->
+            </a>
+            <h2>Water</h2>
+            <br><br>
+        </div>
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 3 gas -->
+            <a id="gas" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-fire fa-border"></i> <!-- fav -->
+            </a>
+            <h2>Gas</h2>
+            <!-- <i class="fa-10x fa-solid fa-fire-flame-simple"></i> -->
+            <br><br>
+        </div>
+      </div>
+
+      <!-- second row -->
+      <div class="row mb-3">
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 4 waste -->
+            <!-- <i class="fa-10x fa-solid fa-recycle"></i> -->
+            <a id="waste" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-trash fa-border"></i> <!-- fav -->
+            </a>
+            <h2>Waste</h2>
+            <br><br>
+        </div>
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 5 TV & internet & mobile -->
+            <a id="tv-internet-mobile" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-globe fa-border"></i>  <!-- fav -->
+            </a>
+            <h2>TV & Internet & Mobile</h2>
+            <!--       
+            <i class="fa-10x fa-solid fa-wifi"></i>
+            <i class="fa-10x fa-solid fa-network-wired"></i>
+            <i class="fa-10x fa-solid fa-tv"></i>
+            <i class="fa-10x fa-solid fa-mobile"></i>
+            <i class="fa-10x fa-solid fa-signal"></i>
+            <i class="fa-10x fa-solid fa-phone-volume"></i>
+            <i class="fa-10x fa-solid fa-phone"></i> -->
+            <br><br>
+        </div>
+        <div class="col-md-4 themed-grid-col text-center">
+            <!-- 6 other -->
+            <a id="other" href="#" target="_blank">
+                <i class="fa-10x fa-solid fa-plus fa-border"></i>
+            </a>
+            <h2>Other</h2>
+        </div>
+      </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">About Super Utilities Management (SUM)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Super Utilities Management (SUM) is a super simple management tool to keep all your utilities links: Electricity, Water, Gas, Waste, TV & Internet & Mobile and Other.</p>
+          <p>It uses HTML, CSS, JavaScript, Bootstrap v5.0 and Font Awesome 6.</p>
+          <p>Add your own links in index.html file starting at line 143 after the comment <strong>// make her the changes to replace the URLs - start</strong></p>
+          <p>Source code: <a href="https://github.com/radubr/Super-Utilities-Management" target="_blank">https://github.com/radubr/Super-Utilities-Management</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // make her the changes to replace the URLs - start
+        localStorage.electricity = "https://#";
+        localStorage.water = "https://#";
+        localStorage.gas = "https://#";
+        localStorage.waste = "https://#";
+        localStorage.tv-internet-mobile = "https://#";
+        localStorage.other = "https://#";
+        // end changes
+
+        document.getElementById("electricity").href = localStorage.electricity;
+        document.getElementById("water").href = localStorage.water;
+        document.getElementById("gas").href = localStorage.gas;
+        document.getElementById("waste").href = localStorage.waste;
+        document.getElementById("tv-internet-mobile").href = localStorage.tv-internet-mobile;
+        document.getElementById("other").href = localStorage.other;
+        </script>
+
+  </body>
+</html>
